@@ -42,6 +42,29 @@ ThriveAI AMI UI is a next-generation mental health platform integrating cutting-
   <p><i>Intuitive Dashboard Interface</i></p>
 </div>
 
+## 💫 Main Features
+
+### 🖥️ Computer Vision
+- **Real-time Emotion Detection:** Uses advanced YOLOv8 models to detect emotions from facial expressions
+- **68-Point Facial Mapping:** Tracks micro-expressions with detailed facial landmark detection
+- **Continuous Monitoring:** Analyzes emotional states throughout therapy sessions
+- **Privacy-Focused Processing:** On-device processing options for sensitive data
+- **Adaptive Calibration:** Learns individual expression patterns for improved accuracy
+
+### 🎥 Real-time AI Video Consultation
+- **Interactive Sessions:** Face-to-face therapeutic conversations with responsive AI
+- **Emotional Intelligence:** AI adjusts approach based on detected emotions
+- **Session Recording:** Optional recording with automated emotional analysis reports
+- **Secure Connection:** End-to-end encrypted video sessions
+- **Crisis Detection:** Identifies signs of distress with appropriate responses
+
+### 🔊 Voice Analysis
+- **Speech Pattern Recognition:** Identifies emotional states from vocal tone and rhythm
+- **Multilingual Support:** Works across 15+ languages with dialect awareness
+- **Subconscious Markers:** Detects emotional signals not apparent in verbal content
+- **Stress Level Assessment:** Measures tension and anxiety through voice analysis
+- **Contextual Understanding:** Interprets emotions based on conversation context
+
 ## ✨ Key Features
 
 ### 🧠 Multimodal Emotion Analysis
@@ -181,6 +204,39 @@ pip install -r requirements.txt
 
 # Start AI engine
 python engine.py
+```
+
+### 5. Computer Vision Module
+```bash
+# From project root, navigate to the CV directory
+cd cv-module
+
+# Activate virtual environment (if not already using one)
+source ../venv/bin/activate  # Windows: ..\venv\Scripts\activate
+
+# Install OpenCV and other CV-specific dependencies
+pip install -r requirements-cv.txt
+
+# Start the Computer Vision service
+python cv_service.py --camera 0 --model models/emotion_yolov8.pt
+```
+
+### 6. Video Consultation Service
+```bash
+# From project root, navigate to the video consultation directory
+cd video-consultation
+
+# Install WebRTC and video processing dependencies
+npm install
+
+# Configure video settings (optional)
+cp video-config.example.json video-config.json
+# Edit video-config.json with your preferred settings
+
+# Start the video consultation service
+npm run start-video-service
+
+# Access the video consultation interface at http://localhost:3001/consultation
 ```
 
 ## 📱 Cross-Platform Support

@@ -54,18 +54,16 @@ Our advanced emotion recognition system uses multiple data channels to provide a
   - Utilizes 68 facial landmarks for precise micro-expression analysis
   - Real-time processing with custom YOLOv8 model
   - Tracks continuous emotional sequences throughout sessions
-  
 - **Voice Analysis:** Identifies emotions from tone, speed, and intonation
   - Employs Wav2Vec 2.0 model for audio sentiment analysis
   - Captures subconscious emotional markers in speech patterns
   - Supports 15+ languages with dialect awareness
-  
 - **Text Analysis:** Understands and evaluates emotions from user journals
   - Deep semantic analysis using multilingual transformer models
   - Identifies latent emotional patterns in written content
   - Tracks emotional changes over time in journal entries
-  
 - **Multimodal AI Integration:** Combines data sources for comprehensive assessment
+
   - Cross-validates emotions across different modalities
   - Weighs contradictory signals based on context and reliability
   - Provides holistic emotional state mapping beyond single-channel analysis
@@ -84,25 +82,21 @@ Our personalized approach to mental health support adapts to your unique needs:
   - Provides targeted challenges to negative thought cycles
   - Adapts difficulty based on progress and emotional state
   - Incorporates evidence-based CBT protocols with AI enhancements
-  
 - **Guided Meditation:** Meditation and mindfulness practices customized to your current state
   - Dynamic session length (3-30 minutes) based on user needs
   - Binaural beats and custom soundscapes for enhanced focus
   - Breathing visualization tools with adaptive guidance
   - Progressive pathways from beginner to advanced practices
-  
 - **Virtual Specialist:** Chat with AI trained by psychology experts
   - Knowledge base built with clinical psychologists' expertise
   - Employs therapeutic conversation techniques like active listening
   - Recognizes crisis signals and provides appropriate responses
   - Maintains continuity across sessions for ongoing support
-  
 - **Development Roadmap:** Long-term plans that self-adjust according to user progress
   - Creates customized mental wellness programs spanning weeks/months
   - Adjusts goals and exercises based on adherence and progress
   - Identifies pattern disruptions and provides path corrections
   - Celebrates milestones with evidence-based reinforcement
-  
 - **Expert Connection:** Suggestion to consult specialists when necessary
   - AI-powered triage system for professional referral decisions
   - Seamless handoff to human professionals when needed
@@ -118,14 +112,13 @@ Our innovative AI video consultation system provides face-to-face therapeutic in
   - Natural conversation flow with minimal latency
   - Session recording with automated emotional analysis report
   - Private end-to-end encrypted video connection
-  
 - **Immersive Experience:** High-quality audiovisual interface designed for therapeutic comfort
   - Calming visual environment with customizable themes
   - Background noise reduction and voice enhancement
   - Adjustable session duration from quick check-ins to full sessions
   - Accessibility features including captions and visual adaptations
-  
 - **Session Continuity:** AI remembers previous interactions for coherent therapy progression
+
   - Session history analysis for tracking therapeutic progress
   - Connection with journal entries and emotion tracking data
   - Homework assignment and review in follow-up sessions
@@ -142,24 +135,28 @@ Our innovative AI video consultation system provides face-to-face therapeutic in
 Comprehensive analytics provide insights into your emotional patterns:
 
 - **Trend Reports:** Long-term emotional trend analysis with intuitive charts
+
   - Weekly, monthly, and quarterly emotional pattern visualization
   - Correlation mapping between activities and emotional states
   - Comparison with baseline measurements to track progress
   - Customizable reporting periods and metrics
 
 - **Crisis Prediction:** Early detection of potential abnormal warning signs
+
   - Anomaly detection algorithms to identify concerning patterns
   - Predictive analysis based on historical emotional data
   - Pre-crisis intervention suggestions with timing optimization
   - Risk level assessment with transparent reasoning
 
 - **Biological Correlation:** Integration with health data from wearable devices
+
   - Heart rate variability (HRV) correlation with emotional states
   - Sleep quality analysis in relation to mental wellbeing
   - Physical activity impact on mood patterns
   - Comprehensive mind-body connection visualization
 
 - **Smart Notifications:** Suggestions for intervention at crucial moments
+
   - Context-aware timing to maximize effectiveness
   - Non-intrusive delivery methods customized to user preference
   - Actionable micro-interventions within notifications
@@ -176,24 +173,28 @@ Comprehensive analytics provide insights into your emotional patterns:
 Protecting your data with the highest standards:
 
 - **E2EE Encryption:** Protecting user data with end-to-end encryption
+
   - Zero-knowledge architecture preventing unauthorized access
   - Client-side encryption of all sensitive information
   - Secure key management with no server-side storage
   - Regular security audits and penetration testing
 
 - **Federated Learning:** AI models improve without sharing private data
+
   - On-device model training maintaining data sovereignty
   - Differential privacy implementation for aggregated improvements
   - Anonymized model parameter updates only
   - Transparency controls for AI learning opt-in/out
 
 - **Local Data Processing:** Emotion analysis directly on user devices
+
   - Edge computing for sensitive biometric processing
   - Minimal cloud data transmission requirements
   - Offline functionality for core therapeutic features
   - Transparent data flow visualization for users
 
 - **Data Control:** Users have full authority over stored data
+
   - Granular permission controls for each data category
   - One-click data export in standard formats
   - Scheduled and on-demand data purging options
@@ -212,18 +213,21 @@ The next-generation emotion recognition system (version 2.0) is the heart of Thr
 ### 💡 Core Technology
 
 - **Transformer AI:** Models based on transformer architecture for deep understanding of emotional context
+
   - Specialized attention mechanisms for emotion-relevant features
   - Context-aware processing across time sequences
   - Transfer learning from large language models adapted to emotion domains
   - Multi-head attention for capturing complex emotional nuances
 
 - **Neural Emotion Mapping:** Dynamic neural emotional mapping adjusting to new data
+
   - Personalized emotion space calibration for individual differences
   - Continuous adaptation to evolving emotional expression
   - Multi-dimensional emotion representation beyond basic categories
   - Cultural and contextual awareness in emotion interpretation
 
 - **Multimodal Fusion:** Intelligent combination of data from face, voice, and text
+
   - Cross-modal attention mechanisms for coherent integration
   - Weighted confidence scoring across modalities
   - Contradiction resolution through contextual analysis
@@ -251,26 +255,31 @@ Each emotional state is analyzed with intensity levels, duration patterns, and t
 ### Frontend
 
 - **Next.js 13:** React framework with SSR/SSG and API routes
+
   - App Router architecture for optimized navigation
   - Server Components for improved performance
   - Streaming responses for better user experience
 
 - **React 18:** UI library with Concurrent Mode
+
   - Suspense for data fetching with fallback states
   - Automatic batching for improved performance
   - Concurrent rendering for responsive interfaces
 
 - **TailwindCSS:** Utility-first CSS framework
+
   - Custom design system implementation
   - Responsive design across all device sizes
   - Dark/light mode with automatic preference detection
 
 - **ThreeJS:** Immersive 3D visualization
+
   - Interactive 3D emotion mapping
   - WebGL-accelerated visualizations
   - Responsive performance optimization
 
 - **Framer Motion:** Animation and transitions
+
   - Emotion-responsive animation patterns
   - Physics-based interactions
   - Accessibility-compliant motion design
@@ -284,16 +293,19 @@ Each emotional state is analyzed with intensity levels, duration patterns, and t
 ### Backend
 
 - **FastAPI:** High-performance API with asyncio
+
   - Asynchronous endpoint handling for scale
   - Automatic OpenAPI documentation
   - Type validation and data serialization
 
 - **Python 3.10+:** Supporting latest features
+
   - Type hints throughout codebase
   - Asyncio for concurrent operations
   - Modern syntax optimizations
 
 - **GraphQL:** Flexible API with Apollo
+
   - Schema-based type system
   - Efficient data fetching with single requests
   - Real-time subscriptions for updates
@@ -309,16 +321,19 @@ Each emotional state is analyzed with intensity levels, duration patterns, and t
 ### AI Technology
 
 - **YOLO v8:** Real-time face detection
+
   - Custom-trained model for emotion features
   - Optimized for mobile and low-power devices
   - High-frequency tracking for micro-expressions
 
 - **Transformer:** Advanced language analysis models
+
   - Fine-tuned for therapeutic conversation
   - Multilingual emotion understanding
   - Context-aware response generation
 
 - **Wav2Vec 2.0:** Audio and voice analysis
+
   - Emotion detection from vocal characteristics
   - Speaker-independent performance
   - Noise-robust processing
@@ -334,11 +349,13 @@ Each emotional state is analyzed with intensity levels, duration patterns, and t
 ### DevOps & Security
 
 - **CI/CD:** GitHub Actions automation
+
   - Comprehensive test coverage
   - Automated quality checks
   - Deployment pipeline with staging environments
 
 - **Infrastructure as Code:** Terraform & Ansible
+
   - Reproducible environment configuration
   - Multi-cloud deployment support
   - Version-controlled infrastructure
@@ -387,6 +404,7 @@ graph TD
 Personalized cognitive behavioral therapy powered by AI helps users identify and challenge automatic negative thoughts. The system self-adjusts based on user feedback and progress.
 
 **Key Features:**
+
 - Automatic negative thought identification
 - Thought challenge suggestions
 - Personalized practice exercises
@@ -400,6 +418,7 @@ Personalized cognitive behavioral therapy powered by AI helps users identify and
 Guided meditation and mindfulness practices adjusted to the user's current emotional state, with techniques ranging from beginner to advanced.
 
 **Key Features:**
+
 - Diverse guided meditations (3-30 minutes)
 - Binaural beats audio
 - Guided breathing exercises with visual guidance
@@ -413,6 +432,7 @@ Guided meditation and mindfulness practices adjusted to the user's current emoti
 Emotion journaling system with semantic analysis and smart suggestions, helping users better understand their emotions over time.
 
 **Key Features:**
+
 - Personalized reflection question prompts
 - Emotional trend analysis
 - Smart reminders
@@ -427,6 +447,7 @@ Emotion journaling system with semantic analysis and smart suggestions, helping 
 AI assistant trained by psychology experts supporting users 24/7, providing advice, listening, and offering appropriate coping techniques.
 
 **Key Features:**
+
 - 24/7 supportive conversation
 - Crisis coping techniques
 - Step-by-step practice guides
@@ -441,6 +462,7 @@ AI assistant trained by psychology experts supporting users 24/7, providing advi
 Advanced AI-powered video consultation provides face-to-face therapeutic interaction with sophisticated emotional intelligence.
 
 **Key Features:**
+
 - Real-time facial expression analysis
 - Natural conversation capabilities
 - Session recording and analysis
@@ -453,18 +475,18 @@ Advanced AI-powered video consultation provides face-to-face therapeutic interac
 
 ## 🚀 System Requirements
 
-| Component | Minimum | Recommended |
-|-----------|---------|-------------|
-| **Node.js** | ≥ 16.x | 18.x LTS or newer |
-| **Python** | ≥ 3.9 | 3.10+ with asyncio |
-| **RAM** | 4GB | ≥ 8GB for optimal performance |
-| **CPU** | 4 cores | ≥ 6 cores for smooth AI processing |
-| **GPU** | Optional | NVIDIA with CUDA for AI acceleration |
-| **Webcam** | 720p | 1080p @ 30fps or higher |
-| **Microphone** | Basic | Good quality with noise cancellation |
-| **Storage** | 2GB | ≥ 5GB + space for data |
-| **OS** | Windows 10+, macOS Monterey+, Ubuntu 20.04+ | Latest version recommended |
-| **Browser** | Chrome 90+, Firefox 90+, Safari 15+, Edge 90+ | Chrome 100+ or Edge 100+ recommended |
+| Component      | Minimum                                       | Recommended                          |
+| -------------- | --------------------------------------------- | ------------------------------------ |
+| **Node.js**    | ≥ 16.x                                        | 18.x LTS or newer                    |
+| **Python**     | ≥ 3.9                                         | 3.10+ with asyncio                   |
+| **RAM**        | 4GB                                           | ≥ 8GB for optimal performance        |
+| **CPU**        | 4 cores                                       | ≥ 6 cores for smooth AI processing   |
+| **GPU**        | Optional                                      | NVIDIA with CUDA for AI acceleration |
+| **Webcam**     | 720p                                          | 1080p @ 30fps or higher              |
+| **Microphone** | Basic                                         | Good quality with noise cancellation |
+| **Storage**    | 2GB                                           | ≥ 5GB + space for data               |
+| **OS**         | Windows 10+, macOS Monterey+, Ubuntu 20.04+   | Latest version recommended           |
+| **Browser**    | Chrome 90+, Firefox 90+, Safari 15+, Edge 90+ | Chrome 100+ or Edge 100+ recommended |
 
 ## 📦 Installation
 
@@ -500,8 +522,8 @@ pip install -r requirements.txt
 ### 4. Install AI Engine
 
 ```bash
-cd ../ai-engine
-python -m venv venv
+cd ../AI
+uvicorn main:app --reload
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 ```
@@ -537,21 +559,9 @@ source venv/bin/activate
 python engine.py
 ```
 
-### Start everything with Docker (recommended)
-
-```bash
-docker-compose up -d
-```
-
 ## 📱 Cross-Platform Integration
 
 <div style="display: flex; justify-content: space-between; flex-wrap: wrap; margin-top: 20px;">
-  <div style="flex: 1; min-width: 300px; text-align: center; padding: 20px;">
-    <img src="https://via.placeholder.com/250x500?text=Mobile+App" alt="Mobile App" style="max-width: 100%; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
-    <h3>Mobile Application</h3>
-    <p>Available on iOS and Android platforms with native performance</p>
-    <p>Features include offline mode, push notifications, and biometric integration</p>
-  </div>
   <div style="flex: 1; min-width: 300px; text-align: center; padding: 20px;">
     <img src="https://via.placeholder.com/500x300?text=Web+Dashboard" alt="Web Dashboard" style="max-width: 100%; border-radius: 15px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" />
     <h3>Web Application</h3>
@@ -571,6 +581,7 @@ docker-compose up -d
 Our development plan for enhancing ThriveAI throughout 2025:
 
 ### Q2 2025
+
 - Extended wearables integration with advanced biometrics
 - Advanced therapeutic AI with multiple methodologies
 - Biometric analysis (HRV, sleep patterns) correlation
@@ -579,6 +590,7 @@ Our development plan for enhancing ThriveAI throughout 2025:
 - Extended language support
 
 ### Q3 2025
+
 - Dedicated supportive social network
 - Mental health professional marketplace
 - VR/AR immersive therapy environments
@@ -587,6 +599,7 @@ Our development plan for enhancing ThriveAI throughout 2025:
 - Integration with primary healthcare systems
 
 ### Q4 2025
+
 - Clinical research studies and results publication
 - Integration with health records (EMR/EHR)
 - Enterprise platform for organizations
